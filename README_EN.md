@@ -1,5 +1,7 @@
 # tagesschau-news-dashboard
 
+[DE](README.md) | [EN]
+
 This project is a news dashboard using the Tagesschau API and serves as a pure learning project for JavaScript.
 
 ## Technologies
