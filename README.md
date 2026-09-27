@@ -1,16 +1,14 @@
-# wdr-podcast-finder
+# tagesschau-news-dashboard
 
-This project is a search application for WDR podcasts and serves as a pure learning project for JavaScript.
+This project is a news dashboard using the Tagesschau API and serves as a pure learning project for JavaScript.
 
 ## Technologies
 
-For this project I use the following technologies: HTML, CSS, JS, and the external API `https://itunes.apple.com/search?term=WDR&entity=podcast`.
+For this project I use the following technologies: HTML, CSS, JS, and the Tagesschau API (`https://www.tagesschau.de/api2u/news/`).
 
 ## Features
 
-You can search for podcasts, which then display information such as name, description, release date, and number of episodes.
-The individual episodes are shown with a short preview and include the usual episode info: length, name, etc.
-There is also a link to the original source for legal reasons.
+You can view current news, filtered by region (Bundesland) or topic (e.g. Inland, Ausland, Wirtschaft, Sport). Each article is displayed with its title, a short description, and a link to the original source on tagesschau.de.
 
 ## Setup / Running locally
 
@@ -19,4 +17,4 @@ There is also a link to the original source for legal reasons.
 
 ## Legal Notice
 
-This project is a non-commercial learning project and uses publicly available RSS feeds/APIs; it has no affiliation with WDR.
+This project is a non-commercial learning project. It uses the Tagesschau API for private, non-commercial use only, as permitted by the API's terms — content from this project is not published or redistributed beyond personal/educational use, and requests are limited to well below the API's rate limit of 60 requests per hour. This project has no affiliation with ARD or Tagesschau.
